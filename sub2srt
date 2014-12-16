@@ -100,6 +100,7 @@ print "Converting from $format to srt\n" if ($format ne "srt" && !$quiet);
 
 open INFILE, "$infile" or die "Unable to open $infile for reading\n";
 open OUTFILE, ">$outfile" or die "Unable to open $outfile for writing\n";
+binmode(OUTFILE, ":utf8");
 
 if ($format eq "subrip") {
 	conv_subrip();

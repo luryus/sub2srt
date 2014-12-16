@@ -49,6 +49,10 @@ Have a look to the file COPYING included in the archive.
 
 Changelog:
 ----------
+16 Dec 2014 Lauri Koskela
+ * sub2srt-0.5.5
+ - Changed output files to use UTF-8 
+
 02 Nov 2013: Krzysztof Trybowski
  * sub2srt-0.5.4
  - Added support for 2 input formats "mpl2" and "tmp"
